@@ -5,7 +5,6 @@ import { ThemeProvider } from "@/components/themeProvider";
 import { Navbar } from "@/components/shared/Navbar";
 import StoreProvider from "./StoreProvider";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,15 +16,9 @@ export default function RootLayout({ children }: any) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
-        <head />
         <body className={inter.className}>
           <StoreProvider>
-            <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-            >
+            <ThemeProvider>
               <Navbar />
               {children}
             </ThemeProvider>

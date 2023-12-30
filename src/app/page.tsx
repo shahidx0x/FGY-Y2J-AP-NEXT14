@@ -35,11 +35,11 @@ const formSchema = z.object({
 })
 export default function LoginPage() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex flex-col lg:flex-row justify-center items-center h-screen">
       <Card className="flex">
         <Card className="w-96 p-5 rounded-r-none">
           <CardHeader>
-            <CardTitle>FGY-Y2J Admin</CardTitle>
+            <CardTitle>Admin Panel</CardTitle>
           </CardHeader>
           <CardContent>
             <form>
@@ -57,7 +57,7 @@ export default function LoginPage() {
             </form>
           </CardContent>
         </Card>
-        <Image className="rounded-r-md" src="https://img.freepik.com/free-vector/color-doodle-food-burger-pattern_1409-3918.jpg?w=1380&t=st=1703802411~exp=1703803011~hmac=57199d01dd3719bc3fdab7709f360e8fa27dabb71c2315b337d9e0bbc9f0b8f3" alt="food-img" width={ 600} height={600} />
+        <Image className="rounded-r-md shadow-lg border-1" src="https://img.freepik.com/free-vector/color-doodle-food-burger-pattern_1409-3918.jpg?w=1380&t=st=1703802411~exp=1703803011~hmac=57199d01dd3719bc3fdab7709f360e8fa27dabb71c2315b337d9e0bbc9f0b8f3" alt="food-img" width={ 600} height={600} />
       </Card>
     </div>
   );
