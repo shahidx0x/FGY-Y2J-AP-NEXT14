@@ -30,6 +30,7 @@
 
 ```bash
 git clone [https://github.com/](https://github.com/)<your-username>/my-app.git
+```
 ## Install dependencies:
 
 ```bash
