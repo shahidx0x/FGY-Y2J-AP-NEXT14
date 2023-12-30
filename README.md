@@ -8,8 +8,6 @@
 - Features: #features
 - Getting Started: #getting-started
 - Key Technologies: #key-technologies
-- Dependencies: #dependencies
-- Contributing: #contributing
 - License: #license
 
 ## About
@@ -50,14 +48,6 @@ npm run dev
 * Tailwind CSS
 * TypeScript
 
-## Dependencies
-
-* **Dependencies:** (List the primary dependencies with brief descriptions)
-* **DevDependencies:** (List the dev dependencies with brief descriptions)
-
-## Contributing
-
-We welcome contributions! Please see the `CONTRIBUTING.md` file for more information.
 
 ## License
 
