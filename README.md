@@ -27,7 +27,7 @@
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/FGY-Y2J-AP-NEXT14.git
+git clone https://github.com/shahidx0x/FGY-Y2J-AP-NEXT14.git
 ```
 ## Install dependencies:
 
