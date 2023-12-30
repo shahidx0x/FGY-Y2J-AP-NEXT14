@@ -36,6 +36,7 @@
 cd FGY-Y2J-AP-NEXT14
 npm install
 npm run dev
+```
 
 # Open http://localhost:3000 in your browser.
 
