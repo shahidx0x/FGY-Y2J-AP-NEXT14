@@ -29,7 +29,7 @@
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/my-app.git
+git clone [https://github.com/](https://github.com/)<your-username>/FGY-Y2J-AP-NEXT14.git
 ```
 ## Install dependencies:
 
