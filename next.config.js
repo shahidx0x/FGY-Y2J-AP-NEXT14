@@ -2,7 +2,13 @@
 const nextConfig = {
   pageExtensions: ["tsx", "jsx", "js", "ts"],
   images: {
-    domains: ["img.freepik.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "img.freepik.com",
+        pathname: "**",
+      },
+    ],
   },
 };
 
