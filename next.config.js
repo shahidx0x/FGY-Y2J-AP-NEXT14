@@ -2,13 +2,7 @@
 const nextConfig = {
   pageExtensions: ["tsx", "jsx", "js", "ts"],
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "img.freepik.com",
-        pathname: "**",
-      },
-    ],
+ 
   },
 };
 

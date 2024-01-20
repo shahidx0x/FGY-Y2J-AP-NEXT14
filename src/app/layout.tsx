@@ -1,18 +1,15 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
 import { Navbar } from "@/components/shared/Navbar";
 import StoreProvider from "./providers/StoreProvider";
-import { AuthProvider } from "./providers/AuthProvider";
 import { ThemeProvider } from "./providers/ThemeProvider";
+import { Inter } from "next/font/google";
 
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-
+import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "FGY-Y2J",
-  description: "FGY-Y2J NEXT-14SHADCN",
+  title: "TOHFA",
+  description: "TOHFA ENTERPRISES",
 };
 
 export default function RootLayout({ children }: any) {
@@ -20,14 +17,12 @@ export default function RootLayout({ children }: any) {
     <>
       <html lang="en" suppressHydrationWarning>
         <body className={inter.className}>
-          <AuthProvider>
-            <StoreProvider>
-              <ThemeProvider>
-                <Navbar />
-                {children}
-              </ThemeProvider>
-            </StoreProvider>
-          </AuthProvider>
+          <StoreProvider>
+            <ThemeProvider>
+              <Navbar />
+              {children}
+            </ThemeProvider>
+          </StoreProvider>
         </body>
       </html>
     </>
